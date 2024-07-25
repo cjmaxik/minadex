@@ -7,7 +7,7 @@
         <p>For better experience,<br />open this page in fullscreen mode (hit F11).</p>
       </minadex-panel>
 
-      <button class="button flex-item" @click="this.$router.push('/minadex')">Open Minadex</button>
+      <button class="button flex-item" @click="router.push('/minadex')">Open Minadex</button>
     </div>
 
     <img src="/assets/goober-here.png" alt="" />
@@ -15,6 +15,9 @@
 </template>
 
 <script setup>
+import { useRouter } from 'vue-router';
+const router = useRouter()
+
 import MinadexPanel from '../components/MinadexPanel.vue'
 </script>
 
