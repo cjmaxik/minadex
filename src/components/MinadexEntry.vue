@@ -1,7 +1,7 @@
 <template>
   <div class="emote">
     <div class="background"></div>
-    <img :src="minasona.emote" alt="Emote" loading="lazy" />
+    <img :src="'/assets/emotes/' + minasona.emote" alt="Emote" loading="lazy" />
   </div>
 
   <div class="panels">
@@ -16,7 +16,7 @@
     <div class="minasona">
       <h1>{{ minasona.nickname }}</h1>
 
-      <img :src="minasona.image" alt="Minasona Image" loading="lazy" />
+      <img :src="'/assets/minasonas/' + minasona.image" alt="Minasona Image" loading="lazy" />
     </div>
   </div>
 

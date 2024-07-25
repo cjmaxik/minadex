@@ -19,7 +19,7 @@ import { useRouter } from 'vue-router';
 const router = useRouter()
 
 import MinadexEntry from '@/components/MinadexEntry.vue'
-import dex from '@/assets/minasonas/dex.json'
+import dex from '@/assets/dex.json'
 
 const props = defineProps({
   id: Number
