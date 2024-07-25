@@ -13,7 +13,7 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import { onMounted, onUnmounted } from 'vue'
 import { useRouter } from 'vue-router';
 
 const router = useRouter()
@@ -27,7 +27,18 @@ const props = defineProps({
 
 onMounted(() => {
   if (outOfBounds(props.id)) router.push('/minadex/1')
+  document.addEventListener("keyup", handler)
 })
+onUnmounted(() => document.removeEventListener("keyup", handler));
+
+const handler = (event) => {
+  console.log(event.key)
+  if (event.key === "ArrowLeft") {
+    changeMinasona(false)
+  } else if (event.key === "ArrowRight") {
+    changeMinasona(true)
+  }
+}
 
 const changeMinasona = (next) => {
   var next_id = next ? props.id + 1 : props.id - 1
