@@ -1,10 +1,5 @@
 <template>
   <div class="minadex-panel">
-    <div class="emote" v-show="emote">
-      <div class="background"></div>
-      <img :src="emote" alt="Emote" />
-    </div>
-
     <div class="handle">
       <div class="elements">
         <div class="line"></div>
