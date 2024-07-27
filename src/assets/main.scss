@@ -1,7 +1,18 @@
 @font-face {
   font-family: 'Vividly';
+  font-display: swap;
   src: url('/fonts/Vividly-Regular.otf') format('opentype');
   ascent-override: 80%;
+}
+
+@font-face {
+  font-family: 'Comic Neue';
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/comicneue/v8/4UaHrEJDsxBrF37olUeD96rp5w.woff2')
+    format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+    U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF,
+    U+FFFD;
 }
 
 :root {
@@ -102,7 +113,7 @@
   box-sizing: border-box;
   margin: 0;
   transition-duration: 0.15s;
-  font-family: 'Vividly', sans-serif;
+  font-family: 'Vividly', 'Comic Neue', sans-serif;
 }
 
 html {
@@ -167,7 +178,7 @@ body {
     margin-top: 5vh;
     margin-right: 5vh;
 
-    font-size: 6vh;
+    font-size: 5.5vh;
 
     .contents {
       height: 20vh;
@@ -280,6 +291,8 @@ body {
       }
 
       .caption {
+        font-style: italic;
+        font-weight: 100;
         font-size: 40px;
       }
     }
@@ -303,7 +316,7 @@ button {
     background-color: var(--panel-title-color);
   }
 
-  &:focus {
+  &:active {
     background-color: var(--panel-handle-color);
   }
 }
@@ -346,6 +359,16 @@ button {
   position: fixed;
   right: 5vh;
   bottom: 5vh;
+  text-align: center;
+
+  .button-group {
+    display: flex;
+    flex-direction: row;
+
+    .text {
+      width: 150px;
+    }
+  }
 }
 
 .emote-background {

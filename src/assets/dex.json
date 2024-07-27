@@ -275,7 +275,7 @@
     "nickname": "WanWan Technologies",
     "quote": "\"You should put Orber into your game... NOW!\"",
     "image": "Wanwan_Technologies.png",
-    "emote": "MILO.webp"
+    "emote": "MILO.png"
   },
   {
     "nickname": "Majora",
@@ -338,7 +338,7 @@
   },
   {
     "nickname": "DrakiWan",
-    "quote": "\"You want gold... then go somewhere else. The only treasures I have are my mountains of self made Cerbplushies, emote pins, stacks of cerber art and my library of wanfics I horde as the Keeper of Lore! What?! That is what you seek?!?!?!?! THEN PREPARE TO DIE! YOU WILL NEVER TAKE MY PRECIOUS!!!!!!\"",
+    "quote": "\"You seek the Archive of the Cerber Lore?! Then die to the Keeper of Lore! HEY! GET AWAY FROM MY CERBPLUSHIES IF YOU DO NOT WANT A SLOW AND PAINFUL DEATH!\"",
     "image": "Drakiwan.png"
   },
   {
@@ -346,5 +346,11 @@
     "quote": "\"I'm definitely keeping watch and not sleeping!\"",
     "image": "ShinobiCatWan.png",
     "emote": "MinawanGun.gif"
+  },
+  {
+    "nickname": "Decruns",
+    "quote": "\"If you ever doubt yourself, believe in Minawan! Believe in Minawan, who fiercely believes in you!\"",
+    "image": "Decruns_Minasona_v2.0.png",
+    "emote": "CerberLove.webp"
   }
 ]
