@@ -9,7 +9,7 @@
   {
     "nickname": "Zakrowan",
     "quote": "\"Yes, i'm an Ember fan, how could you tell?\"",
-    "caption": "MinaDex idea creator",
+    "caption": "MinaDex idea",
     "image": "Zakrowan_Ember.png",
     "emote": "MILE.webp"
   },
@@ -207,6 +207,12 @@
     "emote": "CerberLove.webp"
   },
   {
+    "nickname": "Waifuwan",
+    "quote": "\"I AM NOT LITTLE!!\"",
+    "image": "MiniWan.png",
+    "emote": "miniko12Heart.webp"
+  },
+  {
     "nickname": "Zarywan",
     "quote": "\"Stay still! I need to measure you!\"",
     "image": "Zarywan2.png",
@@ -352,5 +358,11 @@
     "quote": "\"If you ever doubt yourself, believe in Minawan! Believe in Minawan, who fiercely believes in you!\"",
     "image": "Decruns_Minasona_v2.0.png",
     "emote": "CerberLove.webp"
+  },
+  {
+    "nickname": "Marshal Wan",
+    "quote": "\"Slugberg gone but not forgotten o7\"",
+    "image": "Minasnake.png",
+    "emote": "MILS.webp"
   }
 ]
