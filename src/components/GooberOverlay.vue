@@ -10,8 +10,8 @@
 
     <div class="preload" v-show="false">
       <div v-for="minasona in dex" v-bind:key="minasona.nickname">
-        <img :src="`/assets/emotes/${minasona.emote || 'cerber127Huh.webp'}`">
-        <img :src="`/assets/minasonas/${minasona.image}`">
+        <img :src="`/assets/emotes/${minasona.emote || 'cerber127Huh.webp'}?420`">
+        <img :src="`/assets/minasonas/${minasona.image}?420`">
       </div>
     </div>
   </div>

@@ -2,7 +2,7 @@
   <div class="emote-background">
     <div class="emote">
       <div class="background"></div>
-      <img :src="`/assets/emotes/${minasona.emote || 'cerber127Huh.webp'}`" alt="Emote" />
+      <img :src="`/assets/emotes/${minasona.emote || 'cerber127Huh.webp'}?420`" alt="Emote" />
     </div>
   </div>
 
@@ -16,7 +16,7 @@
     <div class="minasona">
       <h1>{{ minasona.nickname }}</h1>
 
-      <img :src="`/assets/minasonas/${minasona.image}`" alt="Minasona Image" />
+      <img :src="`/assets/minasonas/${minasona.image}?420`" alt="Minasona Image" />
     </div>
   </div>
 
