@@ -7,6 +7,13 @@
     </div>
 
     <img src="/assets/goober-here.png" alt="" />
+
+    <div class="preload" v-show="false">
+      <div v-for="minasona in dex" v-bind:key="minasona.nickname">
+        <img :src="`/assets/emotes/${minasona.emote || 'cerber127Huh.webp'}`">
+        <img :src="`/assets/minasonas/${minasona.image}`">
+      </div>
+    </div>
   </div>
 </template>
 
@@ -15,6 +22,7 @@ import { useRouter } from 'vue-router';
 const router = useRouter()
 
 import MinadexPanel from '../components/MinadexPanel.vue'
+import dex from '@/assets/dex.json'
 </script>
 
 <style lang="scss" scoped>
