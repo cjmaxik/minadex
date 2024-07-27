@@ -1,11 +1,7 @@
 <template>
   <div class="flex-container">
     <div class="row">
-      <minadex-panel class="minasona-help flex-item">
-        <p>Put yourself to the right, and chat to the left.</p>
-        <br />
-        <p>For better experience,<br />open this page in fullscreen mode (hit F11).</p>
-      </minadex-panel>
+      <minadex-panel class="minasona-help flex-item" />
 
       <button class="button flex-item" @click="router.push('/minadex')">Open Minadex</button>
     </div>

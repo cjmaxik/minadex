@@ -16,7 +16,18 @@
       </div>
 
       <div class="contents">
-        <slot></slot>
+        <span v-show="text">
+          {{ text }}
+        </span>
+        <span v-show="!text">
+          <p>Put yourself to the right, and chat to the left.</p>
+          <br />
+          <p>For better experience,<br />open this page in fullscreen mode (hit F11).</p>
+        </span>
+
+        <div class="caption" v-show="caption">
+          {{ caption }}
+        </div>
       </div>
     </div>
   </div>
@@ -25,6 +36,7 @@
 <script setup>
 defineProps({
   title: String,
-  emote: String
+  text: String,
+  caption: String
 })
 </script>

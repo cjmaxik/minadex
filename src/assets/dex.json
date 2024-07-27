@@ -1,14 +1,350 @@
 [
   {
+    "nickname": "ScottWan",
+    "quote": "\"I'm just a minawan who likes to draw for other's\"",
+    "caption": "Minasona artist",
+    "image": "Scottwan.png",
+    "emote": "CerberLove.webp"
+  },
+  {
+    "nickname": "Zakrowan",
+    "quote": "\"Yes, i'm an Ember fan, how could you tell?\"",
+    "caption": "MinaDex idea creator",
+    "image": "Zakrowan_Ember.jpg",
+    "emote": "MILE.webp"
+  },
+  {
+    "nickname": "Kali-wan",
+    "quote": "\"\"",
+    "caption": "MinaDex template creator",
+    "image": "Kaliwan.png",
+    "emote": ""
+  },
+  {
     "nickname": "CJMAXiK",
-    "quote": "Never gonna give you up",
+    "quote": "\"Never gonna give you up!\"",
+    "caption": "MinaDex developer",
     "image": "CJwan.png",
     "emote": "catSUS.png"
   },
   {
-    "nickname": "Not CJMAXiK",
-    "quote": "Gonna give you up",
-    "image": "CJwan.png",
-    "emote": "catSUS.png"
+    "nickname": "Mr_McPippens",
+    "quote": "\"Oh boy! Doughnut!\"",
+    "image": "Mr_McPippens.png",
+    "emote": "CerberCozy.webp"
+  },
+  {
+    "nickname": "StigWan",
+    "quote": "\"A thousand year voyage under the wisdom of the ORBER\"",
+    "image": "StigWan.png",
+    "emote": "CerberHeart.webp"
+  },
+  {
+    "nickname": "Inigo_montoya",
+    "quote": "\"Hello. My name is Inigo Montoya. You ignored the rules. Prepare to be Banned.\"",
+    "image": "MontoyaWan.png",
+    "emote": "CerberLove.webp"
+  },
+  {
+    "nickname": "VulgarisWan",
+    "quote": "\"What's the matter? Stream flashing before your eyes?\"",
+    "image": "VulgarisDeath.png",
+    "emote": "CerberYandere.webp"
+  },
+  {
+    "nickname": "Forestisagrandpanyawan",
+    "quote": "\"All aboard the Minawan express? We got hot chocolate...\"",
+    "image": "Forestisagrandpanyawan.jpg",
+    "emote": "MinawanGun.gif"
+  },
+  {
+    "nickname": "M1yaWan",
+    "quote": "\"My favorite part of the Cerber lore is when Cerber said it's 'Cerbin' time' and proceeded to Cerb all over the place\"",
+    "image": "M1yaminasonaNoShad.png",
+    "emote": "CerberPARTY.gif"
+  },
+  {
+    "nickname": "Delete The Nats",
+    "quote": "\"This is my Minasota.  I dunno if I read the instructions correctly but it's still cute, right?\"",
+    "image": "Minasotta.png",
+    "emote": "CerberDum.webp"
+  },
+  {
+    "nickname": "Kelo",
+    "quote": "\"Did someone say Cer-bard?\"",
+    "image": "Kelowan_.png",
+    "emote": "cerber127LUL.webp"
+  },
+  {
+    "nickname": "NSMwan",
+    "quote": "\"Mind if I nap here?\"",
+    "image": "NSMwan.png",
+    "emote": "CerberCozy.webp"
+  },
+  {
+    "nickname": "iw3ywan",
+    "quote": "\"It's all about the game.\"",
+    "image": "iw3ywan.png",
+    "emote": "cerberwaggy.gif"
+  },
+  {
+    "nickname": "Hyper Ruki",
+    "quote": "\"meow\"",
+    "image": "iw3ywan.png",
+    "emote": "CerbySpin.gif"
+  },
+  {
+    "nickname": "jaygwynne",
+    "quote": "\"woof?\"",
+    "image": "Minanya_.png",
+    "emote": "cerber127Peek.webp"
+  },
+  {
+    "nickname": "Blue foxwan",
+    "quote": "\"A mythical being of 5 tales drawn through to reality now inhabits the body of a Minawan; here is where their sixth tale begins…\"",
+    "image": "Blue foxwan.png",
+    "emote": "MinawanBounce.gif"
+  },
+  {
+    "nickname": "AlfWan",
+    "quote": "\"You aren't the main character in this world\"",
+    "image": "Wantair.png",
+    "emote": "CerberLUL.webp"
+  },
+  {
+    "nickname": "jenbot",
+    "quote": "\"you are already jen\"",
+    "image": "jenbot_minasona_redraw_by_scottwan-removebg.png",
+    "emote": "CerberSmug.webp"
+  },
+  {
+    "nickname": "GooseWan",
+    "quote": "\"Your honour, my client was just participating in a little tomfoolery\"",
+    "image": "Goosewan.png",
+    "emote": "Cerber36Percent.webp"
+  },
+  {
+    "nickname": "DiamondWan",
+    "quote": "\"'Clack Cla-' -err, I mean uhh.... Wan Wan!\"",
+    "image": "DiamondWan.png",
+    "emote": "crab.svg"
+  },
+  {
+    "nickname": "Ayumuwan",
+    "quote": "\"If you ever feel sad, just remember, happy dawg is the best dawg!\"",
+    "image": "Ayumuwan.png",
+    "emote": "CerberLove.webp"
+  },
+  {
+    "nickname": "Random person ✓ App",
+    "quote": "\"Wait am I supposed to put something creative here? uhhh... ITS FUTILE 🦅🦅🦅ITS FUTILE 🦅🦅🦅\"",
+    "image": "ss4_minawan_full_power.png",
+    "emote": "Cerber64Percent.webp"
+  },
+  {
+    "nickname": "PokerWan (#1 Orber Fan)",
+    "quote": "\"Any anime where they jump in the OP is a god-tier anime.\"",
+    "image": "Jokerwan.png",
+    "emote": "flushed.webp"
+  },
+  {
+    "nickname": "poopscythewan",
+    "quote": "\"Momber taught me how to use this scythe and im not afraid to use it!\"",
+    "image": "Scythwan.png",
+    "emote": "CerberYandere.webp"
+  },
+  {
+    "nickname": "MuffinWan",
+    "quote": "\"Do not eat!\"",
+    "image": "Muffinwan.png",
+    "emote": "CerberHMPF.webp"
+  },
+  {
+    "nickname": "JojoWan (POGGIES #1 Fan)",
+    "quote": "\"It's getting cold in here\"",
+    "image": "JojoWan.png",
+    "emote": "CerberCozy.webp"
+  },
+  {
+    "nickname": "Flying Doggowan",
+    "quote": "\"I'll do my best to accomplish my dreams and nobody will get in the way.\"",
+    "image": "DogPound.png",
+    "emote": "CerberLove.webp"
+  },
+  {
+    "nickname": "Holo",
+    "quote": "\"I am Holo the Wise Wolf, and I am a very proud wolf\"",
+    "image": "Holowan.png",
+    "emote": "CerberLove.webp"
+  },
+  {
+    "nickname": "The Forgottenwan",
+    "quote": "\"It's impossible to be in a bad mood while listening to Cerber singing!\"",
+    "image": "Untitled2_20240725104257.png",
+    "emote": "CerberLove.webp"
+  },
+  {
+    "nickname": "Shn3",
+    "quote": "\"I don't wanna melt\"",
+    "image": "Shn3_minasona.png",
+    "emote": "cerber127Dead.webp"
+  },
+  {
+    "nickname": "Sugar",
+    "quote": "\"I'm not mint flavoured!\"",
+    "image": "Sugarwan.png",
+    "emote": "CerberLoading.gif"
+  },
+  {
+    "nickname": "Rubicon373",
+    "quote": "\"There better not be any Heresy in here...\"",
+    "image": "Rubiconwan.webp"
+  },
+  {
+    "nickname": "IceCreamWan ;3",
+    "quote": "\"My love for ice cream has emerged at an early age, and has never left!\" - Ginger Rogers :3",
+    "image": "Icecreamwan.png",
+    "emote": "CerberLove.webp"
+  },
+  {
+    "nickname": "Zarywan",
+    "quote": "\"Stay still! I need to measure you!\"",
+    "image": "Zarywan2.png",
+    "emote": "CerbyBounce.gif"
+  },
+  {
+    "nickname": "Renwan",
+    "quote": "\"Try to eat me now!\"",
+    "image": "brickwan.png",
+    "emote": "CerberSmug.webp"
+  },
+  {
+    "nickname": "Adam",
+    "quote": "\"Bonk, it wasn't me, it was uh Mario, oh wait-\"",
+    "image": "Adamaxman_Minasona.png",
+    "emote": "MinaBounce.webp"
+  },
+  {
+    "nickname": "WanmovableJaveline",
+    "quote": "\"zzzzzzzzzzzzzzzzzzzz snnnrk mimimimimi\"",
+    "image": "SleepyBlankywan.png",
+    "emote": "CerberLoading.gif"
+  },
+  {
+    "nickname": "CabbageWan",
+    "quote": "\"I would never use this space to plug the Unwanted Cabbage YouTube channel with over 200 Cerber karaoke covers.\"",
+    "image": "CabbagewanTransparentBg.png",
+    "emote": "MinaBounce.webp"
+  },
+  {
+    "nickname": "PutinagWan",
+    "quote": "\"Man I Love Everywan!\"",
+    "image": "Putinagwan.png",
+    "emote": "CerberHeart.webp"
+  },
+  {
+    "nickname": "Halo_Cats",
+    "quote": "\"Minawan, release the confetti!!!!\"",
+    "image": "Halowan_Confetti_Ver.png",
+    "emote": "Cerber36Percent.webp"
+  },
+  {
+    "nickname": "Dom73RO",
+    "quote": "\"Havin' Fun?\"",
+    "image": "DomWan.png",
+    "emote": "MinawanJam.gif"
+  },
+  {
+    "nickname": "gralha_amarela",
+    "quote": "\"Caw, caw! Chirp, chirp, chirp\"",
+    "image": "gralhawan_wings.png",
+    "emote": "MinaBounce.webp"
+  },
+  {
+    "nickname": "Kirarawan",
+    "quote": "\"wha-?\"",
+    "image": "Rarawan.png",
+    "emote": "MinawanArrive.gif"
+  },
+  {
+    "nickname": "qorglewan",
+    "quote": "\"Eevee\"",
+    "image": "EeveeWan.png"
+  },
+  {
+    "nickname": "WanWan Technologies",
+    "quote": "\"You should put Orber into your game... NOW!\"",
+    "image": "Wanwan_Technologies.png",
+    "emote": "MILO.webp"
+  },
+  {
+    "nickname": "Majora",
+    "quote": "\"will you play with me?\"",
+    "image": "FlandreScarletwan.png",
+    "emote": "cerber127Lurk.webp"
+  },
+  {
+    "nickname": "daavkoWan",
+    "quote": "\"I see snacc. Gib snacc.\"",
+    "image": "daavko-minasona_nobg.png",
+    "emote": "CerberWow.webp"
+  },
+  {
+    "nickname": "TrexarriaWan",
+    "quote": "\"It's a beautiful day outside... Birds are singing... Flowers are blooming... Cerber you... Should be streaming in hell\"",
+    "image": "TrexarriaWan_copy.png",
+    "emote": "CerberCozy.webp"
+  },
+  {
+    "nickname": "Ganwan",
+    "quote": "\"i'm just a watchful puppy, sticking around. Don't mind me.\"",
+    "image": "Ganwan.png",
+    "emote": "cerber127Peek.webp"
+  },
+  {
+    "nickname": "KiroTheFallenWan",
+    "quote": "\"It's me, Cerber, Man I Love Minawan, Wan Wan Wan\"",
+    "image": "Kiro_CerberDisguise.png",
+    "emote": "CerberLove.webp"
+  },
+  {
+    "nickname": "OptionalWan",
+    "quote": "\"Life is hell! But at least we have Cerber here!\"",
+    "image": "OptionalWan-1.png",
+    "emote": "CerberLove.webp"
+  },
+  {
+    "nickname": "Miya",
+    "quote": "\"Pretty coins you got there, mind if i joink them?\"",
+    "image": "Miyawan.png",
+    "emote": "CerberSmug.webp"
+  },
+  {
+    "nickname": "The_RavenFox",
+    "quote": "\"I don't remember how I ended up here. But I love it!\"",
+    "image": "RavenFox.png"
+  },
+  {
+    "nickname": "KrysWan",
+    "quote": "\"Rawr! ...Eh? Y u go Awww? I am a succuwan. I am smexy, not cute. Smexy, I tell u! Drool at the sight of me!... please?\"",
+    "image": "kryswan.png",
+    "emote": "cerber127Sad.webp"
+  },
+  {
+    "nickname": ".gab",
+    "quote": "\"I suppose if we couldn't laugh at things that don't make sense, we couldn't react to a lot of life.\" - Bill Watterson (Calvin & Hobbes) ",
+    "image": "gabwan640.png",
+    "emote": "flushed.webp"
+  },
+  {
+    "nickname": "DrakiWan",
+    "quote": "\"You want gold... then go somewhere else. The only treasures I have are my mountains of self made Cerbplushies, emote pins, stacks of cerber art and my library of wanfics I horde as the Keeper of Lore! What?! That is what you seek?!?!?!?! THEN PREPARE TO DIE! YOU WILL NEVER TAKE MY PRECIOUS!!!!!!\"",
+    "image": "Drakiwan.png"
+  },
+  {
+    "nickname": "ShinobiCatWan",
+    "quote": "\"I'm definitely keeping watch and not sleeping!\"",
+    "image": "ShinobiCatWan.png",
+    "emote": "MinawanGun.gif"
   }
 ]

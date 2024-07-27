@@ -156,7 +156,7 @@ body {
   position: relative;
   width: 45vw;
   min-width: 500px;
-  filter: drop-shadow(0 0 0.2rem var(--panel-border-color));
+  filter: drop-shadow(0 0 0.75rem var(--panel-border-color));
   animation: panels-animation 15s both infinite;
 
   &.minadex-bio {
@@ -167,7 +167,7 @@ body {
     margin-top: 5vh;
     margin-right: 5vh;
 
-    font-size: 7vh;
+    font-size: 6vh;
 
     .contents {
       height: 20vh;
@@ -278,6 +278,10 @@ body {
       .dislikes {
         padding-top: 5vh;
       }
+
+      .caption {
+        font-size: 40px;
+      }
     }
   }
 }
@@ -318,6 +322,7 @@ button {
     position: absolute;
     height: 100%;
     width: auto;
+    filter: drop-shadow(0 0 0.75rem var(--panel-border-color));
   }
 
   .minasona {
@@ -326,7 +331,9 @@ button {
     text-align: center;
     width: 80vh;
 
-    // background-color: red;
+    h1 {
+      font-size: 80px;
+    }
 
     img {
       height: 45vh;
@@ -342,34 +349,38 @@ button {
   bottom: 5vh;
 }
 
-.emote {
-  position: absolute;
-  top: 85px;
-  left: 19.6vw;
+.emote-background {
+  filter: drop-shadow(0 0 0.75rem var(--panel-border-color));
 
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  .emote {
+    position: absolute;
+    top: 85px;
+    left: 19.6vw;
 
-  width: calc(96px + var(--default-border-width) * 2);
-  height: 96px;
-  background-color: var(--panel-border-color);
-  clip-path: polygon(100% 50%, 70% 100%, 30% 100%, 0 50%, 30% 0, 70% 0);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 
-  animation: panels-animation 10s both infinite;
-
-  .background {
-    position: fixed;
-    width: 96px;
-    height: calc(96px - var(--default-border-width) * 2);
-    background-color: var(--panel-body-color);
+    width: calc(96px + var(--default-border-width) * 2);
+    height: 96px;
+    background-color: var(--panel-border-color);
     clip-path: polygon(100% 50%, 70% 100%, 30% 100%, 0 50%, 30% 0, 70% 0);
-  }
 
-  img {
-    width: 96px;
-    height: auto;
-    display: block;
-    clip-path: polygon(100% 50%, 70% 100%, 30% 100%, 0 50%, 30% 0, 70% 0);
+    animation: panels-animation 10s both infinite;
+
+    .background {
+      position: fixed;
+      width: 96px;
+      height: calc(96px - var(--default-border-width) * 2);
+      background-color: var(--panel-body-color);
+      clip-path: polygon(100% 50%, 70% 100%, 30% 100%, 0 50%, 30% 0, 70% 0);
+    }
+
+    img {
+      width: 96px;
+      height: auto;
+      display: block;
+      clip-path: polygon(100% 50%, 70% 95%, 30% 95%, 0 50%, 30% 5%, 70% 5%);
+    }
   }
 }

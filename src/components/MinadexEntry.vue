@@ -1,13 +1,13 @@
 <template>
-  <div class="emote">
-    <div class="background"></div>
-    <img :src="'/assets/emotes/' + minasona.emote" alt="Emote" loading="lazy" />
+  <div class="emote-background">
+    <div class="emote">
+      <div class="background"></div>
+      <img :src="`/assets/emotes/${minasona.emote || 'cerber127Huh.webp'}`" alt="Emote" loading="lazy" />
+    </div>
   </div>
 
   <div class="panels">
-    <minadex-panel class="minadex-bio">
-      {{ minasona.quote }}
-    </minadex-panel>
+    <minadex-panel class="minadex-bio" :text="minasona.quote" :caption="minasona.caption" />
   </div>
 
   <div class="showcase-background">
@@ -16,7 +16,7 @@
     <div class="minasona">
       <h1>{{ minasona.nickname }}</h1>
 
-      <img :src="'/assets/minasonas/' + minasona.image" alt="Minasona Image" loading="lazy" />
+      <img :src="`/assets/minasonas/${minasona.image}`" alt="Minasona Image" loading="lazy" />
     </div>
   </div>
 
