@@ -32,7 +32,6 @@ onMounted(() => {
 onUnmounted(() => document.removeEventListener("keyup", handler));
 
 const handler = (event) => {
-  console.log(event.key)
   if (event.key === "ArrowLeft") {
     changeMinasona(false)
   } else if (event.key === "ArrowRight") {
@@ -44,9 +43,9 @@ const changeMinasona = (next) => {
   var next_id = next ? props.id + 1 : props.id - 1
 
   if (outOfBounds(next_id)) {
-    router.push('/minadex/1')
+    router.push('/e/1')
   } else {
-    router.push({ name: 'minadex', params: { id: next_id } })
+    router.push({ name: 'e', params: { id: next_id } })
   }
 }
 

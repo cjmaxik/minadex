@@ -11,12 +11,12 @@ const router = createRouter({
       component: GooberOverlay
     },
     {
-      path: '/minadex',
-      redirect: '/minadex/1'
+      path: '/e',
+      redirect: '/e/1'
     },
     {
-      path: '/minadex/:id',
-      name: 'minadex',
+      path: '/e/:id',
+      name: 'e',
       component: InfoView,
       props: (route) => ({ id: Number.parseInt(route.params.id) })
     }

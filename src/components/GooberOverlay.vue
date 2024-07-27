@@ -3,7 +3,7 @@
     <div class="row">
       <minadex-panel class="minasona-help flex-item" />
 
-      <button class="button flex-item" @click="router.push('/minadex')">Open Minadex</button>
+      <button class="button flex-item" @click="router.push('/e/1')">Open Minadex</button>
     </div>
 
     <img src="/assets/goober-here.png" alt="" />
@@ -59,27 +59,6 @@ import dex from '@/assets/dex.json'
   height: 150px !important;
   animation: panels-animation 15s both infinite;
 }
-
-// .overlay {
-
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//
-
-//   .center {
-//     position: absolute;
-//     text-align: center;
-//     width: 100%;
-//     height: 100%;
-
-//     button {
-//       font-size: 60px;
-//       height: 150px;
-//     }
-//   }
 
 img {
   position: absolute;
