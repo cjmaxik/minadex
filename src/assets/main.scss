@@ -316,8 +316,6 @@ button {
   width: auto;
   z-index: -1;
 
-  // background-color: red;
-
   .bg {
     position: absolute;
     height: 100%;
@@ -327,7 +325,7 @@ button {
 
   .minasona {
     position: relative;
-    top: 41vh;
+    top: 40.5vh;
     text-align: center;
     width: 80vh;
 
@@ -336,7 +334,8 @@ button {
     }
 
     img {
-      height: 45vh;
+      margin-top: 60px;
+      height: 40vh;
       filter: drop-shadow(0 0 0.75rem var(--panel-border-color));
       animation: bounce 10s both infinite;
     }
