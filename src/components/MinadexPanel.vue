@@ -20,9 +20,9 @@
           {{ text }}
         </span>
         <span v-show="!text">
-          <p>Put yourself to the right, and chat to the left.</p>
+          <p>Put yourself to the right, and chat to the left. Make sure the browser is at 100% scale.</p>
           <br />
-          <p>For better experience,<br />open this page in fullscreen mode (hit F11).</p>
+          <p>Please open this page in fullscreen mode (hit F11).</p>
         </span>
 
         <div class="caption" v-show="caption">
