@@ -213,6 +213,12 @@
     "emote": "CerberWow.webp"
   },
   {
+    "nickname": "ExistsWan",
+    "quote": "\"What I do have are a very particular set of skills, respawning faster than you can even think... I will find you, and I will pet you\"",
+    "image": "ExistswanScott.png",
+    "emote": "CerbySpin.gif"
+  },
+  {
     "nickname": "Zarywan",
     "quote": "\"Stay still! I need to measure you!\"",
     "image": "Zarywan2.png",
@@ -364,5 +370,47 @@
     "quote": "\"Slugberg gone but not forgotten o7\"",
     "image": "Minasnake.png",
     "emote": "MILS.webp"
+  },
+  {
+    "nickname": "Thelosingwan",
+    "quote": "\"Yeehaw, Man i love Minawan\"",
+    "image": "Losingwan_1.png",
+    "emote": "MILM.webp"
+  },
+  {
+    "nickname": "kerorave",
+    "quote": "\"I'm one hot dog.\"",
+    "image": "You_Doodle_Pro_2024-07-27T21_09_06Z.png",
+    "emote": "CerberSmug.webp"
+  },
+  {
+    "nickname": "Tsyte",
+    "quote": "\"A lilly for my princess; were that was adorned as lovely as thee, alas. ... ... uh wait, what do you mean \"stroke it for me\"?\"",
+    "image": "Tsyte-wan.png",
+    "emote": "CerberCozy.webp"
+  },
+  {
+    "nickname": "diablowan",
+    "quote": "\"Not even death can save you from me.\"",
+    "image": "Diablowan.png",
+    "emote": "CerberSmug.webp"
+  },
+  {
+    "nickname": "{BD}Spyder_COA",
+    "quote": "\"Someone wasn't watching.\"",
+    "image": "minaspy.webp",
+    "emote": "MinawanGun.gif"
+  },
+  {
+    "nickname": "Yakara",
+    "quote": "\"Please be careful around me, I might tip over\"",
+    "image": "fa71fb6f-2ce4-40a9-b455-62a1476e2f1c.png",
+    "emote": "cerberKek.webp"
+  },
+  {
+    "nickname": "Nunntabs",
+    "quote": "\"WAKU WAKU\"",
+    "image": "Anyawan.png",
+    "emote": "cerberPetPet.gif"
   }
 ]
