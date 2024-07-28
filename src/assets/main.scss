@@ -153,12 +153,15 @@ body {
   height: 100%;
   overflow: auto;
   flex-direction: row;
+  overflow: hidden;
 }
 
 .minadex-panel {
   position: relative;
   width: 45vw;
   min-width: 500px;
+  overflow: hidden;
+
   filter: drop-shadow(0 0 0.75rem var(--panel-border-color));
   animation: panels-animation 15s both infinite;
 
@@ -170,7 +173,7 @@ body {
     margin-top: 5vh;
     margin-right: 5vh;
 
-    font-size: 5.5vh;
+    font-size: 5vh;
 
     .contents {
       height: 20vh;
