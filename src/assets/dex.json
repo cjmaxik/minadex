@@ -15,7 +15,7 @@
   },
   {
     "nickname": "Kali-wan",
-    "quote": "\"I’m over here taking a nap rn I got a pillow under my head rn, sleeping so soundly, I’m sleepy as frick man, I’m a snoozer man.\"",
+    "quote": "\"I'm over here taking a nap rn I got a pillow under my head rn, sleeping so soundly, I'm sleepy as frick man, I'm a snoozer man.\"",
     "caption": "MinaDex template creator",
     "image": "Kaliwan.png",
     "emote": "cerberPuddle.webp"
@@ -343,10 +343,10 @@
     "emote": "cerber127Sad.webp"
   },
   {
-    "nickname": "gabwan",
-    "quote": "\"I suppose if we couldn't laugh at things that don't make sense, we couldn't react to a lot of life.\" - Bill Watterson (Calvin & Hobbes) ",
-    "image": "gabwan640.png",
-    "emote": "flushed.webp"
+    "nickname": "StarlitAbyss",
+    "quote": "\"Greggs chicken bake taken, scientific resolve shaken, sleep forsaken\"",
+    "image": "",
+    "emote": "1201680070171693097.webp"
   },
   {
     "nickname": "DrakiWan",
@@ -424,5 +424,80 @@
     "quote": "\"Fox faction is cute faction\"",
     "image": "SnowFoxWan.png",
     "emote": "cerberwaggy.gif"
+  },
+  {
+    "nickname": "KiernanWan",
+    "quote": "\"Bursting forth with a bit of jokester energy\"",
+    "image": "Kiernanwan-blue.png"
+  },
+  {
+    "nickname": "SPCMN",
+    "quote": "\"GLRP\"",
+    "image": "minasona.gif",
+    "emote": "MILS.webp"
+  },
+  {
+    "nickname": "jellylaserbeams",
+    "quote": "\"lost world of goo 2 level leak ‼️‼️‼️‼️\"",
+    "image": "Jellylazerbeamwan.png"
+  },
+  {
+    "nickname": "ben",
+    "quote": "\"minawan transform and rollout!\"",
+    "image": "OptimusWan.png",
+    "emote": "letsgo.webp"
+  },
+  {
+    "nickname": "VaughnSteams",
+    "quote": "\"FeelsAmazingMan\"",
+    "image": "Feelsamazingwan.png",
+    "emote": "1267515353571917824.webp"
+  },
+  {
+    "nickname": "Flixouwan",
+    "quote": "\"I heard there was a princess who needed saving\"",
+    "image": "minawan-cleaned-v2.png",
+    "emote": "CerberWow.webp"
+  },
+  {
+    "nickname": "Reddwan",
+    "quote": "\"*guitar riff* Wawa wee wa wee woooooo\"",
+    "image": "KKwan.png",
+    "emote": "wanwan.webp"
+  },
+  {
+    "nickname": "BwuzzWan",
+    "quote": "\"LFG!! *anxious noises*\"",
+    "image": "minasonabuzz_1.png",
+    "emote": "blush.webp"
+  },
+  {
+    "nickname": "yaywan",
+    "quote": "\"Nyehehe\"",
+    "image": "littlewan.png",
+    "emote": "CerberSmug.webp"
+  },
+  {
+    "nickname": "OssianWan",
+    "quote": "\"Awooooooooo\"",
+    "image": "Minasans_Ghost_pixel_art.png"
+  },
+  {
+    "nickname": "ZiebeWan",
+    "quote": "\"No pet! I prickly and chompy.\"",
+    "image": "Minasona.png",
+    "emote": "CerberHMPF.webp"
+  },
+  {
+    "nickname": "PoopyPondWan",
+    "quote": "\"Nya proudly, and keep your claws sharp >:3\"",
+    "image": "munchkinwan2.png",
+    "emote": "CerberPARTY.gif"
+  },
+  {
+    "nickname": "gabwan",
+    "quote": "\"I suppose if we couldn't laugh at things that don't make sense, we couldn't react to a lot of life.\" - Bill Watterson (Calvin & Hobbes) ",
+    "image": "gabwan640.png",
+    "emote": "flushed.webp"
   }
 ]
