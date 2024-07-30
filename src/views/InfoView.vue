@@ -4,7 +4,8 @@
 
     <div class="switch">
       <div class="end" v-if="id === dex.length">
-        End of the showcase
+        End of the showcase<br />
+        <a href="https://cjmaxik.itch.io/goober-surprise" target="_blank" style="color: red;">Click for a surprise!</a>
       </div>
       <div class="button-group">
         <button @click="changeMinasona(false)">
