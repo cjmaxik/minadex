@@ -8,19 +8,9 @@
   <script>
     sessionStorage.redirect = location.href;
   </script>
-  <meta http-equiv="refresh" content="0;URL='/'" />
+  <meta http-equiv="refresh" content="0;URL='https://cjmaxik.github.io/minadex'" />
 </head>
 
-<body>
-  <script>
-    (() => {
-      const redirect = sessionStorage.redirect
-      delete sessionStorage.redirect
-      if (redirect && redirect !== location.href) {
-        history.replaceState(null, null, redirect)
-      }
-    })();
-  </script>
-</body>
+<body></body>
 
 </html>
