@@ -3,19 +3,24 @@ name: Publish
 on:
   push:
     branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    
     steps:
-    - uses: actions/checkout@v4
-    - name: Setup Bun
-      uses: oven-sh/setup-bun@v2.0.1
     - name: Checkout
       uses: actions/checkout@v4
-    - run: bun build
+      
+    - name: Setup Bun
+      uses: oven-sh/setup-bun@v2.0.1
+      
+    - name: Install
+      run: bun install
+      
+    - name: Build the dist
+      run: bun run build
+      
     - name: Upload static files as artifact
       id: deployment
       uses: actions/upload-pages-artifact@v3
@@ -24,13 +29,17 @@ jobs:
   
   deploy:
     needs: build
+    
     runs-on: ubuntu-latest
+    
     permissions:
       pages: write
       id-token: write
+      
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+      
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
