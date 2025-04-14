@@ -2,7 +2,7 @@
   <div class="emote-background">
     <div class="emote">
       <div class="background"></div>
-      <img :src="`/assets/emotes/${minasona.emote || 'cerber127Huh.webp'}?420`" alt="Emote" />
+      <img :src="`${BASE_URL}/assets/emotes/${minasona.emote || 'cerber127Huh.webp'}?420`" alt="Emote" />
     </div>
   </div>
 
@@ -16,7 +16,7 @@
     <div class="minasona">
       <h1>{{ minasona.nickname }}</h1>
 
-      <img :src="`/assets/minasonas/${minasona.image}?420`" alt="Minasona Image" />
+      <img :src="`${BASE_URL}/assets/minasonas/${minasona.image}?420`" alt="Minasona Image" />
     </div>
   </div>
 
@@ -24,6 +24,8 @@
 
 <script setup>
 import MinadexPanel from '../components/MinadexPanel.vue'
+
+const BASE_URL = import.meta.env.BASE_URL
 
 defineProps({
   minasona: Object

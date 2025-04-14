@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import GooberOverlay from '@/components/GooberOverlay.vue'
 import InfoView from '@/views/InfoView.vue'
 
 const router = createRouter({
@@ -8,7 +7,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: GooberOverlay
+      redirect: '/e/1'
     },
     {
       path: '/e',

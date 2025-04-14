@@ -6,23 +6,25 @@
       <button class="button flex-item" @click="router.push('/e/1')">Open Minadex</button>
     </div>
 
-    <img src="/assets/goober-here.png" alt="" />
+    <img :src="`${BASE_URL}/assets/goober-here.png`" alt="" />
 
     <div class="preload" v-show="false">
       <div v-for="minasona in dex" v-bind:key="minasona.nickname">
-        <img :src="`/assets/emotes/${minasona.emote || 'cerber127Huh.webp'}?420`">
-        <img :src="`/assets/minasonas/${minasona.image}?420`">
+        <img :src="`${BASE_URL}/assets/emotes/${minasona.emote || 'cerber127Huh.webp'}?420`">
+        <img :src="`${BASE_URL}/assets/minasonas/${minasona.image}?420`">
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import { useRouter } from 'vue-router';
+import { useRouter } from 'vue-router'
 const router = useRouter()
 
 import MinadexPanel from '../components/MinadexPanel.vue'
 import dex from '@/assets/dex.json'
+
+const BASE_URL = import.meta.env.BASE_URL
 </script>
 
 <style lang="scss" scoped>
